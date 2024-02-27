@@ -53,7 +53,7 @@ for out in range(1, 3):
 #   Once you have done this, then change the above _TODO_ to DONE.
 ##############################################################################
 def many_triangles(num_of_triangles, size):
-    for triangle in range(num_of_triangles):
+    for num in range(num_of_triangles):
         for x in range(1, size + 1):
             print("*" * x)
     print()
